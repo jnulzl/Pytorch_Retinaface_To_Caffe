@@ -15,7 +15,7 @@ sys.path.insert(1, "../")
 import caffe
 ```
 
-- Run detecy.py
+- Run detect.py
 ```shell
 cd toCaffe
 python detect.py
