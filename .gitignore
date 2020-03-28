@@ -1,0 +1,8 @@
+data/widerface*
+widerface_evaluate/*pyd
+widerface_evaluate/build
+weights/Resnet50*
+*__pycache__
+toCaffe/ok/*
+toCaffe/imgs/*
+widerface_evaluate/widerface_txt/*
