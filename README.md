@@ -5,17 +5,17 @@
 
 - Compile [my_caffe](https://github.com/jnulzl/caffe_plus) 
 
-- Add `CAFFE_PYTHON` and `../` to PYTHONPATH in toCaffe/detect.py：
+- Add `PATH_of_YOUR_CAFFE_PYTHON` and `../` to PYTHONPATH in toCaffe/detect.py：
 
 ```python
 from __future__ import print_function
 import sys
-sys.path.insert(0, "PATH_of_CAFFE_PYTHON")
+sys.path.insert(0, "PATH_of_YOUR_CAFFE_PYTHON")
 sys.path.insert(1, "../")
 import caffe
 ```
 
-- Run detecy.py
+- Run detect.py
 ```shell
 cd toCaffe
 python detect.py
@@ -68,7 +68,7 @@ net forward time: 1.0882
 
 ![test](toCaffe/test.jpg)
 
-Below is origin result**:
+**Below is origin result**:
 
 ```shell
 Loading pretrained model from ./weights/mobilenet0.25_Final.pth
