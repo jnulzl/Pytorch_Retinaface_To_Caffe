@@ -68,7 +68,7 @@ net forward time: 1.0882
 
 ![test](toCaffe/test.jpg)
 
-Below is origin result**:
+**Below is origin result**:
 
 ```shell
 Loading pretrained model from ./weights/mobilenet0.25_Final.pth
